@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="Footer">
       <small className="footer mt-4">
-        This project was coded by Anisa Mohamud and is {""}
+        This project was coded by Anisa Mohamud and it is {""}
         <a
           href="https://github.com/Anisah91/myweather-app-react"
           target="_blank"
