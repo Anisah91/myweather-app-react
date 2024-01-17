@@ -77,11 +77,6 @@ ul {
   text-align: center;
 }
 
-.description {
-  display: flex;
-  justify-content: end;
-}
-
 div.weatherapp {
   border-radius: 10px;
   background: linear-gradient(#f6ebe6, #aee1f9);
