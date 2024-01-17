@@ -45,7 +45,7 @@ export default function WeatherApp() {
             </div>
 
             <div className="weatherTemp">
-              <img src="" id="icon" rel="noreferrer" />
+              <img src="" id="icon" rel="noreferrer" alt="weather-icon" />
               <span id="currentTemp">8</span>
               <span className="units">°C</span>
             </div>
