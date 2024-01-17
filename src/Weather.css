@@ -1,0 +1,112 @@
+body {
+  background-color: aliceblue;
+  display: block;
+  margin: 0 auto;
+}
+
+#search-text-input {
+  padding: 3px 140px;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  padding: 4px 40px;
+  background: blue;
+  color: white;
+}
+
+.btn-success {
+  padding: 4px 40px;
+  background: green;
+  color: white;
+}
+
+.container {
+  max-width: 65%;
+}
+
+p1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.8em;
+}
+.top {
+  font-size: 22px;
+  font-weight: lighter;
+  color: black;
+}
+
+#weatherDescription {
+  text-transform: capitalize;
+}
+
+#currentTemp {
+  font-size: 75px;
+  color: black;
+  vertical-align: middle;
+}
+.units {
+  font-size: 24px;
+  vertical-align: top;
+}
+
+ul {
+  list-style-type: none;
+  color: black;
+  font-size: 26px;
+  font-weight: lighter;
+  line-height: 1.6em;
+  font: Arial, sans-serif;
+  border: 0.5px solid gray;
+  width: 290px;
+  height: 145px;
+  border-radius: 8px;
+  position: relative;
+  right: -550px;
+  top: -120px;
+  box-shadow: 4px 4px 4px 4px lightblue;
+  padding: 0.5px;
+  text-align: center;
+}
+
+div.weatherapp {
+  border-radius: 10px;
+  background: linear-gradient(#f6ebe6, #aee1f9);
+  margin: 13px;
+  padding-bottom: 1px;
+  line-height: 1.1;
+  box-shadow: 5px 5px 5px 5px lightblue;
+}
+#forecast {
+  display: block;
+  margin: 0 auto;
+}
+
+.weather-forecast-day {
+  font-size: 20px;
+  text-align: center;
+  line-height: 0.7em;
+}
+.img-container {
+  text-align: center;
+  padding: 10px;
+  size: 120px;
+}
+
+.wf-min {
+  font-size: 22px;
+  color: grey;
+}
+.wf-max {
+  font-size: 22px;
+}
+.weather-forecast-temp {
+  text-align: center;
+}
+
+small.footer {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
