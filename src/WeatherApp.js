@@ -1,4 +1,6 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+
 import "./Weather.css";
 import Footer from "./Footer";
 
@@ -15,9 +17,8 @@ export default function WeatherApp() {
             <form id="search-form">
               <input
                 type="text"
-                placeholder="Enter your city"
+                placeholder="Please enter a city name"
                 autoFocus={true}
-                autoComplete="false"
                 id="search-text-input"
               />
               <button type="button" className="btn btn-primary">
@@ -32,7 +33,7 @@ export default function WeatherApp() {
               </button>
             </form>
             <br />
-            <p1 id="cityName">Copenhagen</p1>
+            <p id="cityName">Copenhagen</p>
             <br />
 
             <div className="top">
@@ -47,8 +48,10 @@ export default function WeatherApp() {
               <span id="currentTemp">8</span>
               <span className="units">°C</span>
             </div>
-            <div className="description">
-              <ul>
+            <div
+              className="description mt-5
+            mb-5">
+              <ul className="mb-5">
                 <li>
                   Feels like: <span id="feelsLike">5 </span>℃
                 </li>

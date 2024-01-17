@@ -1,31 +1,42 @@
 body {
   background-color: aliceblue;
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  padding: 30px;
 }
 
 #search-text-input {
   padding: 3px 140px;
-  line-height: 1.6;
+  line-height: 1.7;
+  width: 55%;
+  border-radius: 5px;
+  padding: 6px 20px;
+  border: 1px solid white;
+  text-align: center;
 }
 
 .btn-primary {
   padding: 4px 40px;
-  background: blue;
-  color: white;
+  width: 150px;
+  line-height: 1.7;
+  text-align: center;
 }
 
 .btn-success {
-  padding: 4px 40px;
-  background: green;
-  color: white;
+  padding: 4px 20px;
+  width: 160px;
+  line-height: 1.7;
+  text-align: center;
 }
 
-.container {
-  max-width: 65%;
+.card-body {
+  margin-left: 10px;
 }
-
-p1 {
+#cityName {
   font-size: 40px;
   color: black;
   font-weight: bold;
@@ -58,16 +69,17 @@ ul {
   font-weight: lighter;
   line-height: 1.6em;
   font: Arial, sans-serif;
-  border: 0.5px solid gray;
+  border: 0.5px aliceblue;
   width: 290px;
   height: 145px;
-  border-radius: 8px;
-  position: relative;
-  right: -550px;
-  top: -120px;
+  border-radius: 6px;
   box-shadow: 4px 4px 4px 4px lightblue;
-  padding: 0.5px;
   text-align: center;
+}
+
+.description {
+  display: flex;
+  justify-content: end;
 }
 
 div.weatherapp {
@@ -108,5 +120,5 @@ div.weatherapp {
 small.footer {
   text-align: center;
   display: block;
-  font-size: 18px;
+  font-size: 17px;
 }
