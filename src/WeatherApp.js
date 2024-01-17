@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-
 import "./Weather.css";
 import Footer from "./Footer";
+import { Rings } from "react-loader-spinner";
 
 export default function WeatherApp() {
   return (
@@ -14,7 +14,7 @@ export default function WeatherApp() {
               <div className="row"></div>
             </div>
             <br />
-            <form id="search-form">
+            <form id="search-form" className="mt-3">
               <input
                 type="text"
                 placeholder="Please enter a city name"
@@ -43,10 +43,23 @@ export default function WeatherApp() {
               <br />
               <div id="weatherDescription">Rain 🌧️</div>
             </div>
+
             <div className="weatherTemp">
-              <img src="" id="icon" alt="weather-icon" rel="noreferrer" />
+              <img src="" id="icon" rel="noreferrer" />
               <span id="currentTemp">8</span>
               <span className="units">°C</span>
+            </div>
+
+            <div className="spinner-ring">
+              <Rings
+                visible={true}
+                height="150"
+                width="150"
+                color="darkblue"
+                ariaLabel="rings-loading"
+                wrapperStyle={{}}
+                wrapperClass="spinner"
+              />
             </div>
             <div
               className="description mt-5
@@ -63,6 +76,7 @@ export default function WeatherApp() {
                 </li>
               </ul>
             </div>
+
             <div className="weather-forecast" id="forecast"></div>
           </div>
         </div>

@@ -34,7 +34,7 @@ body {
 }
 
 .card-body {
-  margin-left: 10px;
+  margin-left: 16px;
 }
 #cityName {
   font-size: 40px;
@@ -117,6 +117,10 @@ div.weatherapp {
   text-align: center;
 }
 
+.spinner-ring {
+  display: flex;
+  justify-content: center;
+}
 small.footer {
   text-align: center;
   display: block;
