@@ -6,7 +6,7 @@ import "./Weather.css";
 export default function Footer() {
   return (
     <div className="Footer">
-      <small className="footer mt-4">
+      <footer className="footer mt-5">
         This project was coded by Anisa Mohamud and it is {""}
         <a
           href="https://github.com/Anisah91/myweather-app-react"
@@ -22,7 +22,7 @@ export default function Footer() {
           rel="noreferrer">
           Netlify
         </a>
-      </small>
+      </footer>
     </div>
   );
 }

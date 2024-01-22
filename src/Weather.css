@@ -52,6 +52,11 @@ body {
   text-transform: capitalize;
 }
 
+.description {
+  display: flex;
+  justify-content: right;
+}
+
 #currentTemp {
   font-size: 75px;
   color: black;
@@ -112,11 +117,7 @@ div.weatherapp {
   text-align: center;
 }
 
-.spinner-ring {
-  display: flex;
-  justify-content: center;
-}
-small.footer {
+.Footer {
   text-align: center;
   display: block;
   font-size: 17px;
